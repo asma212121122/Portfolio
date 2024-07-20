@@ -1,0 +1,274 @@
+:root{
+  --main-color:#401F71;
+  --second-color:#ffff;
+  --third-color:#FDAF7B;
+  --forth-color:#59149a;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.title{
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+body{
+  background:var(--main-color);
+  width: 100vw;
+  /* height: 100vh; */
+}
+.App{
+  background:var(--main-color);
+  width: 100vw;
+}
+.container{
+  background:transparent;
+  color: var(--second-color);
+}
+.navbar-brand{
+  color:var(--second-color);
+}
+.navbar-brand:hover{
+  color:var(--second-color);
+}
+
+.navbar-nav{
+  background:transparent;
+  margin-left: auto;
+  color:var(--second-color);
+}
+.navbar-nav a{
+  padding: 0px 0px;
+  margin-left: 30px;
+  color:var(--second-color);
+  font-weight: 500;
+}
+
+.navbar-nav a:hover{
+  color:var(--third-color);
+  text-decoration: underline;
+}
+
+.navbar-toggler{
+  color: #ffff;
+  border: none;
+}
+
+
+  .show .navbar-nav  a{
+    margin-left: 0px;
+    margin-top:20px ;
+  }
+@media (max-width:992px) {
+  nav{
+    background:#3e215ac2;
+  }
+  .About .container .image{
+    display: none;
+  }
+}
+/* #####Home########## */
+.Home{
+  width: 100vw;
+  height: 80vh;
+}
+.Home .container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.color{
+  color: var(--third-color);
+}
+.Home .content{
+  width: 40%;
+  height: 60%;
+  
+}
+.Home .content h2{
+  font-size: 32px;
+}
+ .image{
+  width: 50%;
+  height: 100%;
+}
+.image img{
+  width: 100%;
+  height: 100%;
+}
+.Home .image{
+  width: 60%;
+}
+.btn{
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 20px;
+  border-radius: 24px;
+  padding: 8px 20px;
+}
+.primary{
+  background: var(--third-color); 
+  color:var(--main-color) ;
+  border: none;
+}
+.primary:hover{
+  background:transparent ;
+  color:var(--third-color) ;
+  border:1px solid  var(--third-color) ;
+}
+.secondary{
+  background:transparent ;
+  color:var(--third-color) ;
+  border:1px solid  var(--third-color) ;
+}
+.secondary:hover{
+  background: var(--third-color); 
+  color:var(--main-color) ;
+  border: none;
+}
+@media (max-width:990px) {
+  *{
+    text-align: center;
+  }
+  .Home .container,.About .container {
+    margin-top: 60px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+   .container .content{
+    width: 100%;
+    
+   }
+   .About .container {
+    padding: 0;
+   }
+   .About .container .content{
+    padding: 10px;
+   }
+   .container .image{
+    width: 100%;
+   }
+
+}
+/* ####About#### */
+.About{
+  width: 100vw;
+  height: 100vh;
+}
+.About .container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.color{
+  color: var(--third-color);
+}
+.About .content{
+  width: 70%;
+  background: var(--forth-color);
+  padding: 30px 30px;
+  border-radius: 18px;
+}
+
+.image{
+  margin-right: -80px;
+  width: 30%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* ####Skills#### */
+.Skills{
+  text-align: center;
+}
+.Skills .title{
+  margin-bottom: 50px;
+}
+.skill{
+  margin:20px 120px;
+}
+
+/* ####Projects#### */
+.App .Projects{
+  text-align: center;
+}
+.Projects h2{
+  margin-bottom: 30px;
+}
+.Projects .card-row{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Projects .card-row .card{
+  margin-bottom: 15px;
+  background-color: var(--forth-color);
+  color: var(--second-color);
+  display: flex;
+  align-items: center;
+}
+.Projects .btn{
+  padding: 5px 10px;
+  font-size: 16px;
+}
+/* ####Contact#### */
+.Contact{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.Contact .title{
+  margin-bottom: 20px;
+ }
+.Contact .content{
+  width: 40%;
+  height: 100% ;
+  font-size: 18px;
+  font-weight: 500;
+}
+form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 500;
+}
+form div{
+  width: 80%;
+  margin-bottom: 15px;
+}
+input::placeholder{
+  color: #cfccd3;
+}
+.form-control,
+.form-control:focus{
+  background: var(--forth-color);
+  border: none;
+}
+@media (max-width:450px) {
+  .Contact{
+    flex-direction: column;
+    align-items: center;
+  }
+  .Contact .content{
+    width: 80%;
+  }
+  form{
+    width: 90%;
+  }
+}
+/* ####Footer#### */
+.Footer{
+  background-color: var(--forth-color);
+}
+
