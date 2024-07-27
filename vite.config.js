@@ -11,4 +11,9 @@ export default defineConfig({
       input: 'main.jsx', //
     },
   },
+   resolve: {
+    alias: {
+      'react-dom/client': 'react-dom'
+    }
+  }
 });

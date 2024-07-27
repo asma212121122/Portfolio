@@ -215,6 +215,13 @@ body{
   color: var(--second-color);
   display: flex;
   align-items: center;
+  height: 350px;
+}
+
+.Projects .card-row .card .card-img-top{
+  margin: 5px 2px;
+  width: 90%;
+  height: 150px;
 }
 .Projects .btn{
   padding: 5px 10px;
