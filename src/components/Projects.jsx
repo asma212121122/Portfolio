@@ -10,12 +10,13 @@ const Projects = () => {
       title: 'Maktabi',
       description: 'an vertual workspace coded with htmland css',
       link: maktabiImg,
-      githublink : 'https://github.com/asma212121122/To-Do-List-App/'
+      githublink : 'https://github.com/asma212121122/Maktabi/'
     },
     {
       title: 'medic',
       description: 'a teleconsultation website coded with htmland css',
-      link: medicImg
+      link: medicImg,
+      githublink : 'https://github.com/asma212121122/Medic/'
     },
     {
       title: 'To Do List',
@@ -27,7 +28,7 @@ const Projects = () => {
       title: 'Niessly',
       description: 'online store website coded with html and css',
       link: medicImg,
-      githublink : 'https://github.com/asma212121122/To-Do-List-App/'
+      githublink : 'https://github.com/asma212121122/Niessly/'
     }
   ];
 
