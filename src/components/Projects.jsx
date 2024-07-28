@@ -2,6 +2,7 @@ import React from 'react';
 import maktabiImg from "../images/maktabi-img.jpg";
 import medicImg from "../images/medic-img.jpg";
 import todolistImg from "../images/todolist-img.png";
+import niesslyImg from "../images/niessly-img.png";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 const Projects = () => {
@@ -27,7 +28,7 @@ const Projects = () => {
     {
       title: 'Niessly',
       description: 'online store website coded with html and css',
-      link: medicImg,
+      link: niesslyImg,
       githublink : 'https://github.com/asma212121122/Niessly/'
     }
   ];
